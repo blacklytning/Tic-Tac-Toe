@@ -22,7 +22,7 @@ This project helped me practice basic DOM manipulation, event handling, and game
 ![Winner Message](Screenshots/Screenshot2.png)
 
 ### Draw Message
-![Draw Message](Screenshots/Screeshot3.png)
+![Draw Message](Screenshots/Screenshot3.png)
 
 
 ---
