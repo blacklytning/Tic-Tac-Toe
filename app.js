@@ -8,8 +8,6 @@ let draw = document.querySelector("#draw");
 let turnO = true;
 let count = 0;
 
-let isWinner = checkWinner();
-
 const winPatterns = [
     [0, 1, 2],
     [3, 4, 5],
@@ -86,6 +84,8 @@ const checkWinner = () => {
         }
     }
 };
+
+let isWinner = checkWinner();
 
 newGame_button.addEventListener('click', resetGame);
 reset_button.addEventListener('click', resetGame);
