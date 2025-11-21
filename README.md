@@ -3,7 +3,7 @@
 A simple and clean Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript**.  
 This project helped me practice basic DOM manipulation, event handling, and game logic.
 
----
+
 
 ## Features
 
@@ -13,7 +13,7 @@ This project helped me practice basic DOM manipulation, event handling, and game
 - Responsive & minimal UI  
 - Beginner-friendly JavaScript code
 
----
+
 
 ### Game UI
 ![Game Screenshot](Screenshots/Screenshot1.png)
@@ -25,7 +25,7 @@ This project helped me practice basic DOM manipulation, event handling, and game
 ![Draw Message](Screenshots/Screenshot3.png)
 
 
----
+
 
 ## Technologies Used
 
