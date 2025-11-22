@@ -119,8 +119,10 @@ newGame_button.addEventListener("click", resetGame);
 reset_button.addEventListener("click", resetGame);
 
 // --- Online logic ---
-function connectToServer(url = "http://localhost:3000") {
-    socket = io(url);
+function connectToServer(url = "https://tic-tac-toe-tzek.onrender.com") {
+    socket = io(url, {
+        transports: ["websocket"]
+    });
 
     socket.on("connect", () => {
         statusLabel.innerText = "Connected";
@@ -187,7 +189,7 @@ function connectToServer(url = "http://localhost:3000") {
 }
 
 join_button.addEventListener("click", () => {
-    if (!socket) connectToServer("http://localhost:3000");
+    if (!socket) connectToServer("https://tic-tac-toe-tzek.onrender.com");
     const gameId = gameIdInput.value || "default";
     const name = nameInput.value || "Player";
     socket.emit("join", { gameId, name });
